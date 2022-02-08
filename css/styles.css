@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Roboto:wght@100&display=swap");
+body{
+    font-size: 18px;
+    line-height: 1.5;
+}
+header,
+footer {
+  background-color: #2b3a67;
+}
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+header{
+    color: antiquewhite;
+    text-align: center;
+    padding: 1.25rem;
+}
+header img {
+    float: left;
+    margin: 5px;
+}
+footer {
+    color: antiquewhite;
+    text-align: center;
+    padding: 1.1;
+}
