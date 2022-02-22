@@ -13,13 +13,14 @@ footer {
     max-width: 760px;
 }
 header{
-    color: antiquewhite;
     text-align: center;
-    padding: 1.25rem;
+    color: antiquewhite;
+    padding: 1rem;
 }
 header img {
     float: left;
     margin: 5px;
+    height: 100px;
 }
 footer {
     color: antiquewhite;
@@ -28,4 +29,7 @@ footer {
 }
 h2, ul, p {
     font-family: 'KoHo', sans-serif;
+}
+.my_photo{
+    grid-column: 1/1;
 }

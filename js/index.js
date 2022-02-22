@@ -2,4 +2,4 @@
 //document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-Us', options);
 
 const lastmod = document.querySelector('#currentdate');
-lastmod.textContent = document.lastModified;
+lastmod.textContent = `Last updated: ${document.lastModified}`;
