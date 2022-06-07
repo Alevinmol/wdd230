@@ -1,0 +1,135 @@
+body{
+    font-size: 16px;
+    color: rgb(54, 20, 20);
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+nav{
+    background-color: rgb(54, 20, 20);
+    text-align: center;
+    margin-top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(4, 1fr);
+    padding-inline-start: 0;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: .75rem;
+}
+
+nav li a:hover{
+    background-color: white;
+    color: rgb(54, 20, 20);
+}
+
+.home-main{
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: .5em 2em;
+    text-align: center;
+    grid-column-gap: 10px;
+}
+
+img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin: auto;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    color:white;
+    background-color: rgb(54, 20, 20);
+    margin-top: 1em;
+}
+
+footer a:link{
+    color: lightblue;
+}
+
+footer a:visited{
+    color:lightgoldenrodyellow;
+}
+
+#lastupdated {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.colors-main h2{
+    text-align: center;
+}
+
+#colors-sample{
+    display: grid;
+    grid: repeat(5,1fr)/ 1fr;
+    margin: .5em;
+    padding-bottom: .6em;
+    color: white;
+}
+
+#colors-sample p{
+    width: 80%;
+    text-align: center;
+    padding: 1em;
+}
+
+#color1{
+    background-color: #F26F63;
+}
+
+#color2{
+    background-color: #bf6f8e;
+}
+
+#color3{
+    background-color: #464e7c;
+}
+
+#color4{
+    background-color: #355b8c;
+}
+
+#color5{
+    background-color: #011640;
+}
+
+.audience{
+    padding: 0 1em;
+}
+
+.typography{
+    padding: 1em;
+}
+
+#colors-define{
+    padding: .5em 2em;
+}
+
