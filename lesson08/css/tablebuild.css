@@ -1,0 +1,56 @@
+main, footer {
+    font-family: Ubuntu;
+}
+
+table{
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #006d77;
+}
+
+.table-header {
+    font-size: x-large;
+}
+
+.subheading {
+    font-size: large;
+}
+
+.subheading, #goal-met {
+    background-color: #006d77;
+    color: white;
+}
+
+td, th, h1{
+    text-align: center;
+    padding: .5em;
+}
+
+.table-header, .table-footer {
+    background-color: #83c5be;
+}
+
+tr:nth-child(even) {
+    background-color: #C8ADC0;
+}
+
+tr:nth-child(odd) {
+    background-color: #A0E8AF;
+}
+
+.black-friday {font-style: italic;}
+
+.table-footer {
+    font-size: small;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media only screen and (min-width:600px) {
+    table {
+        width: 50%;
+        max-width: 450px;
+    }
+}
