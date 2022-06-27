@@ -1,0 +1,37 @@
+.weather, .weather h3 {
+    background-color: #011640;
+    padding: .5em;
+}
+
+.weather {
+    color: white;
+}
+
+.weather img {
+    float: left;
+    padding-top: 1em;
+    width: 80px;
+}
+
+.weather h4 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: .1em;
+}
+
+.weather h4, .weather h5 {
+    text-align: right;
+    padding-right: 60px;
+}
+
+#current-temp {
+    padding-left: 20px;
+}
+
+.weather h5 {
+    font-weight: 500;
+    font-size: medium;
+    border-bottom: 2px white solid;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
