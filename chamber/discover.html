@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Alejandro Vinay" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teapa Chamber of Commerce || Home</title>
+    <title>Teapa Chamber of Commerce || Discover</title>
     <meta
       name="description"
-      content="The home page for the Teapa Chamber of Commerce"
+      content="The discover page for the Teapa chamber of Commerce"
     />
-    <link rel="shortcut icon" href="favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -25,7 +24,9 @@
     />
   </head>
   <body>
-    <div id="banner">lorem ipsum</div>
+    <div id="banner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+    </div>
     <header>
       <img
         src="images/logo-teapa.png"
@@ -54,8 +55,8 @@
         </button>
 
         <ul class="navigation">
-          <li class="active"><a href="index.html"> Home </a></li>
-          <li><a href="discover.html"> Discover </a></li>
+          <li><a href="index.html"> Home </a></li>
+          <li class="active"><a href="discover.html"> Discover </a></li>
           <li><a href="directory.html"> Directory </a></li>
           <li><a href="join.html"> Join </a></li>
           <li><a href="contact.html"> Contact </a></li>
@@ -64,69 +65,76 @@
       <div class="date"></div>
     </header>
 
-    <main>
-      <div class="home-main">
-        <section class="hero">
-          <h2>Welcome to Teapa</h2>
-          <picture class="hero-photo">
-            <source media="(max-width: 33.9em)" srcset="images/fotoTeapa.jpg" />
-            <source media="(max-width: 829px)" srcset="images/fotoTeapa.jpg" />
-            <source media="(max-width: 1400px)" srcset="images/fotoTeapa.jpg" />
-            <img src="images/fotoTeapa.jpg" alt="Teapa" />
-          </picture>
-          <a href="join.html" class="join-button button-link">
-            Join the Chamber
-          </a>
-        </section>
-        <section class="event">
-          <h3>EVENTS</h3>
-          <h4>Cocona caverns</h4>
+    <h2>Discover</h2>
+    <main class="discover-main">
+      <div class="deck">
+        <div class="card discover">
+          <img
+            src="images/placeholder.png"
+            data-src="images/platanerasC.jpg"
+            alt="placeholder"
+            width="300"
+            height="300"
+          />
+          <h3>Visit The Plataneras</h3>
           <p>
-            Join us for a fun day trip to the Cocona caverns exclusively for our
-            chamber members. Enjoy a full day exploring this magical nature
-            wonder! Cocona caverns,Teapa, Thursday at 10 a.m.
-            <a href="#"> more info... </a>
+            Visit the plataneras that extend for miles as it is the main source
+            of economy in town.
           </p>
-        </section>
-        <section class="weather">
-          <h3>WEATHER*</h3>
-          <img src="#" alt="" id="weathericon" />
-          <h4><span id="current-temp"></span> &#176;F</h4>
-          <h5><span id="desc"></span></h5>
-          <p>Wind Speed: <span id="speed"></span> mph</p>
-          <p>Wind Chill: <span id="windchill"></span></p>
-        </section>
-        <section class="join">
-          <h3 class="home-section-heading">JOIN</h3>
-          <a href="join.html" class="button-link"> Join Us! </a>
+        </div>
+        <div class="card discover">
+          <img
+            src="images/placeholder.png"
+            data-src="images/grutasCoco.jpg"
+            alt="placeholder"
+            width="300"
+            height="300"
+          />
+          <h3>See the amazing Cocona caverns</h3>
+          <p>This amazing nature wonder is just minutes away from town.</p>
+        </div>
+        <div class="card discover">
+          <img
+            src="images/placeholder.png"
+            data-src="images/iglesiaEsquipulas.jpg"
+            alt="placeholder"
+            width="300"
+            height="300"
+          />
+          <h3>Visit the Esquipulas church</h3>
           <p>
-            Discover how to join our Chamber of Commerce and the benefits
-            available to you!
+            This historical place dates back from the time before independence
+            it's one of Teapa's landmarks.
           </p>
-        </section>
-        <section class="news">
-          <h3>NEWS</h3>
+        </div>
+        <div class="card discover">
+          <img
+            src="images/placeholder.png"
+            data-src="images/lagunaG.jpg"
+            alt="placeholder"
+            width="300"
+            height="300"
+          />
+          <h3>Enjoy the view at the Sitio grande lagoon</h3>
           <p>
-            The Teapa Chamber of Commerce is celebrating its 25th anniversary
-            this month! As one of the most resourceful connections for local
-            businesses here in Tabasco, we are proud to play a part in bringing
-            our communities closer together. All members of the Chamber will
-            recieve special pins and coins to commemorate this wonderful event!
+            Located in Manuel Buelta rancheria this natural landmark is great
+            for having a photo session.
           </p>
-        </section>
-        <section class="spotlight">
-          <h3 class="home-section-heading">SPOTLIGHT</h3>
-          <div class="spotlight-item"></div>
-          <div class="spotlight-item"></div>
-          <div class="spotlight-item" id="spotlight3"></div>
-        </section>
+        </div>
       </div>
+      <p id="sameday">
+        You visited this page <span id="lastvisit"></span> days ago.
+      </p>
     </main>
 
     <footer>
       <div class="top-footer">
         <section class="company">
-          <img src="images/logo-teapa.png" alt="logo" class="logo" />
+          <img
+            src="images/logo-teapa.png"
+            alt="Teapa Chamber of Commerce logo"
+            class="logo"
+          />
           <h3>Teapa Chamber of Commerce</h3>
           <p>Manuel Buelta 117 col centro, Teapa, Tabasco, Mexico</p>
         </section>
@@ -146,16 +154,12 @@
       <hr />
       <div class="wdd-info">
         &copy;<span id="currentyear"></span> .:|:. J. Alejandro Vinay .:|:.
-        Mexico
       </div>
       <span id="lastupdated"></span>
-      <p class="attribution">
-        * The weather information has been provided by OpenWeatherMap
-      </p>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/weatherapi.js"></script>
-    <script src="js/spotlight.js"></script>
+    <script src="js/daysbetween.js"></script>
+    <script src="js/lazyloading.js"></script>
   </body>
 </html>
