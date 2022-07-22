@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn & Suites || Home</title>
+    <meta
+      name="description"
+      content="The home page for the Temple Inn & Suites"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="alert-message">
+      <span id="message"></span>
+      <span id="close-btn"> &#10006;</span>
+    </div>
+    <header>
+      <div class="top-left">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/Facebook_Logo.png" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin-logo.png" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="top-middle">
+        <img
+          src="images/templesLogo.png"
+          alt="Temple Inn & Suites logo"
+          class="logo logo-mobile"
+        />
+        <nav>
+          <ul class="navigation hidden-left">
+            <li class="active"><a href="index.html"> HOME </a></li>
+            <li><a href="temple.html"> TEMPLES </a></li>
+            <li class="logo-center">
+              <a href="index.html"
+                ><img
+                  src="images/templesLogo.png"
+                  alt="Temple Inn & Suites logo"
+                  class="logo"
+              /></a>
+            </li>
+            <li><a href="reservation.html"> RESERVATION </a></li>
+            <li><a href="services.html"> SERVICES </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="top-right">
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span
+          ><span id="xbutton" class="hidden toggle-btn"> &#10006; </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <h1>Temple Inn & Suites</h1>
+      <div class="attention">
+        <a href="reservation.html" class="hero">
+          <picture class="hero-photo">
+            <source
+              media="(max-width: 33.9em)"
+              srcset="images/payson-wheat-400.jpg"
+            />
+            <source
+              media="(max-width: 829px)"
+              srcset="images/payson-wheat-600.jpg"
+            />
+            <source
+              media="(max-width: 1400px)"
+              srcset="images/payson-wheat-800.jpg"
+            />
+            <img
+              src="images/payson-wheat-800.jpg"
+              alt="Payson Temple hero image"
+            />
+          </picture>
+          <p class="cta">Schedule a reservation at an inn near a temple ></p>
+        </a>
+      </div>
+
+      <h2>Helping you be where you need to be.</h2>
+      <div class="services">
+        <h3>Specialized Services</h3>
+        <ul>
+          <li>Wedding Reception Hall</li>
+          <li>Short-term Babysitting</li>
+          <li>Family Research Center</li>
+          <li><a href="services.html">See more ></a></li>
+        </ul>
+      </div>
+
+      <div class="temples spotlight">
+        <h3>Temple Highlight</h3>
+      </div>
+
+      <div class="weather">
+        <h3>WEATHER*</h3>
+        <div class="current-weather">
+          <div class="temp-and-humid">
+            <p>Humidity: <span id="humid"></span>%</p>
+            <h4><span id="current-temp"></span>&#176;</h4>
+          </div>
+          <div class="icon-and-desc">
+            <img src="#" alt="" id="weathericon" />
+            <p><span id="desc"></span></p>
+          </div>
+        </div>
+        <div class="three-day">
+          <img src="#" alt="" />
+          <h4><span class="current-temp"></span> &#176;F</h4>
+          <p><span class="day"></span></p>
+        </div>
+        <div class="three-day">
+          <img src="#" alt="" />
+          <h4><span class="current-temp"></span> &#176;F</h4>
+          <p><span class="day"></span></p>
+        </div>
+        <div class="three-day">
+          <img src="#" alt="" />
+          <h4><span class="current-temp"></span> &#176;F</h4>
+          <p><span class="day"></span></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="contact">
+        <p class="contact-info">contact@templeinnsuite.com</p>
+        <p class="contact-info">240.554.3321</p>
+        <p class="contact-info location">
+          <a
+            href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+            target="blank"
+          >
+            🗺️ Locate us here.</a
+          >
+        </p>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span id="currentyear"></span> Temple Inn & Suites.
+        </p>
+        <p>All rights reserved.</p>
+        <span id="lastupdated"></span>
+      </div>
+      <p class="attribution">
+        *The weather information has been provided by OpenWeatherMap
+      </p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/spotlight.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

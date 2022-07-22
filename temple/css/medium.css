@@ -1,0 +1,149 @@
+@media only screen and (min-width: 34em) {
+
+    /*******
+    Home
+    *******/
+    
+        .hero {margin: .25em auto;}
+        .cta {font-size: xx-large;}
+    
+        .hero:hover .cta {color: white;}
+    
+        h2 {font-size: 3em;}
+    
+        .spotlight {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            padding-bottom: 1.5em;
+        }
+    
+        .spotlight img{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            align-self: center;
+        }
+    
+        .spotlight h4 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            margin-bottom: .5em;
+        }
+        .spotlight p {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            align-self: center;
+            padding-right: .5em;
+            padding-top: 1em;
+        }
+    
+    
+    /*******
+    Footer
+    *******/
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 15px;
+            align-items: center;
+    
+        }
+    
+        .contact {
+            justify-self: left;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .social {align-self: center;}
+    
+        .attribution {grid-column: 1/4;}
+    
+        /***********
+        Temple Page
+        ***********/
+        .deck section h2 {font-size: 2em;}
+    
+        .deck {
+            max-width: 100%;
+            background-color: #bf705e;
+            padding: .75em;
+        }
+    
+        .deck section {
+            margin: 2em auto;
+            max-width: 375px;
+        }
+    
+        #morebtn:hover {
+            z-index: 2;
+            background: rgb(217,164,4);
+            background: linear-gradient(145deg, rgba(217,164,4,1) 24%, rgba(217,41,41,1) 49%, rgba(89,2,2,1) 78%);
+            color: white;
+            transition: .5s;
+            cursor: pointer;
+        }
+    
+        /***********
+        Services
+        ***********/
+        .reception {grid-column: 1/2;
+        }
+        .missionary {grid-column: 2/3;}
+    
+        .subpages {
+            grid-column-gap: 20px;
+            margin: 0 auto;
+            max-width: 850px;
+        }
+    
+        .services-main {margin: .5em auto;}
+    
+        .amenities {text-align: left;}
+    
+        .services {display: grid;}
+    
+        .services img {
+            grid-row: 2/3;
+            max-height: 500px;
+            align-self: center;
+        }
+    
+        .services ul {grid-row: 2/3}
+    
+        /***********
+        Events
+        ***********/
+        .reception-main {
+            display: grid;
+            justify-content: center;
+            grid-row-gap: 10px;
+            grid-column-gap: 5px;
+            align-items: center;
+        }
+    
+        .reception-photo img {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .packages {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin: .25em auto;
+        }
+    
+        .food {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            margin-left: 30%;
+        }
+        .contact-events {
+            grid-column: 1/3;
+            grid-row: 3/4;
+        }
+    
+    
+    
+        /*********
+        Suites
+        *********/
+        .contact-us form {max-width: 410px;}
+    }

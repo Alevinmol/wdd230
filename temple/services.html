@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn & Suites || Services</title>
+    <meta
+      name="description"
+      content="A page that lists the services and amenities"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-left">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="top-middle">
+        <img
+          src="images/templesLogo.png"
+          alt="Temple Inn & Suites logo"
+          class="logo logo-mobile"
+        />
+        <nav>
+          <ul class="navigation hidden-left">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="temple.html"> TEMPLES </a></li>
+            <li class="logo-center">
+              <a href="index.html"
+                ><img
+                  src="images/templesLogo.png"
+                  alt="Temple Inn & Suites logo"
+                  class="logo"
+              /></a>
+            </li>
+            <li><a href="reservation.html"> RESERVATION </a></li>
+            <li class="active"><a href="services.html"> SERVICES </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="top-right">
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span
+          ><span id="xbutton" class="hidden toggle-btn"> &#10006; </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="services-main">
+        <h1>Services</h1>
+        <div class="subpages">
+          <a href="reception.html" class="reception overlay">
+            <img
+              src="images/events.jpg"
+              alt="Reception Table"
+              class="overlay-photo"
+            />
+            <p class="cta">Reception Info ></p>
+          </a>
+          <a href="suites.html" class="missionary overlay">
+            <img src="images/bed.jpg" alt="Suite bed" class="overlay-photo" />
+            <p class="cta">Full-time Missionaries ></p>
+          </a>
+        </div>
+        <section class="amenities">
+          <h2>Amenities</h2>
+          <ul>
+            <li>Breakfast</li>
+            <li>Exercise/workout room</li>
+            <li>Indoor pool</li>
+            <li>WiFi high-speed internet access and smart TVs</li>
+            <li>Parking</li>
+            <li>Temple shuttle</li>
+            <li>
+              Family history consultation and family ordinance card service
+            </li>
+          </ul>
+        </section>
+        <section class="services">
+          <h2>Services</h2>
+          <img src="images/daycare.jpg" alt="Daycare Services" />
+          <ul>
+            <li>Changing rooms & bathroom facilities</li>
+            <li>A playroom & low-cost, short-term babysitting services</li>
+            <li>
+              Long-term stay accommodations in kitchenette suites for full-time
+              temple missionaries
+            </li>
+            <li>Temple history themed reception and sitting area</li>
+            <li>
+              A wedding reception hall that can be easily customized with a
+              simple catering menu
+            </li>
+            <li>Reception kitchen access for food preparation and serving</li>
+            <li>
+              A family search center that supports family search and ordinance
+              work
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="contact">
+        <p class="contact-info">contact@templeinnsuite.com</p>
+        <p class="contact-info">240.554.3321</p>
+        <p class="contact-info location">
+          <a
+            href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+            target="blank"
+          >
+            🗺️ Locate us here.</a
+          >
+        </p>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span id="currentyear"></span> Temple Inn & Suites.
+        </p>
+        <p>All rights reserved.</p>
+        <span id="lastupdated"></span>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+  </body>
+</html>

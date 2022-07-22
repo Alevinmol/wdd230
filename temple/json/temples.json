@@ -1,0 +1,56 @@
+{
+    "temples": [
+      {
+        "name": "Payson",
+        "address": "1494 S 930 W\nPayson UT 84651\nUnited States",
+        "phone": "801-754-4949",
+        "website": "https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng",
+        "imgfile": "images/payson-front.jpg",
+        "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "history": ["25 January 2010 - Announced","8 October 2011 - Groundbreaking","7 June 2015 - Dedicated"],
+        "ordinsched": "By appointment only.",
+        "sessched": "By appointment only.",
+        "tempclosesched": ["Saturday, 2 April 2022","Monday, 4 April 2022 - Monday, 11 April 2022","Saturday, 1 October 2022","Monday, 10 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Friday, 23 December 2022 (Limited Operations)","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)"],
+        "summary": "Surrounded by beautiful mountains and fields of wheat, the Payson temple was dedicated in 2015. It was the fifteenth temple built in Utah and the third temple in Utah County. There is an apple blossom theme throughout the temple. It is one of the largest temples."
+      },
+      {
+        "name": "Jordan River",
+        "address": "10200 S Temple Drive\nSouth Jordan UT 84095-8814\nUnited States",
+        "phone": "801-254-3003",
+        "website": "https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng",
+        "imgfile": "images/jordan-river.jpg",
+        "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "history": ["3 February 1978 - Announced","9 June 1979 - Groundbreaking","16 November 1981 - Dedicated","20 May 2018 - Rededicated"],
+        "ordinsched": "By appointment only.",
+        "sessched": "By appointment only.",
+        "tempclosesched": ["Saturday, 2 April 2022","Monday, 16 May 2022 - Monday, 30 May 2022","Saturday, 1 October 2022","Monday, 31 October 2022 - Monday, 14 November 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)"],
+        "summary": "The Jordan River Temple was the seventh temple to be built in Utah and the twentieth temple in the world, at the time of its dedication in 1981. Tear drops are a theme found on its fences and spire. It is also one of the few temple where the angel Moroni is holding the gold plates."
+      },
+      {
+        "name": "Gilbert",
+        "address": "3301 S Greenfield Rd\nGilbert AZ 85297\nUnited States",
+        "phone": "480-822-5000",
+        "website": "https://www.churchofjesuschrist.org/temples/details/gilbert-arizona-temple?lang=eng",
+        "imgfile": "images/gilbert.jpg",
+        "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "history": ["10 April 2008 - Announced","13 November 2010 - Groundbreaking","2 March 2014 - Dedicated "],
+        "ordinsched": "By appointment only",
+        "sessched": "By appointment only.",
+        "tempclosesched": ["Monday, 28 March 2022 - Monday, 11 April 2022","Saturday, 1 October 2022","Monday, 3 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+        "summary": "The Gilbert Temple is a magnificent addition to Arizona's greater Pheonix area. When the temple was dedicated 2014, it was the tallest building in Gilbert. The Gilbert temple was the 142nd temple to be built worldwide."
+      },
+      {
+        "name": "Mount Timpanogos",
+        "address": "742 N 900 E\nAmerican Fork UT 84003-9124\nUnited States",
+        "phone": "801-763-4540",
+        "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
+        "imgfile": "images/mt-timp.jpg",
+        "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "history": ["3 October 1992 - Announced","9 October 1993 - Groundbreaking","13 October 1996 - Dedicated"],
+        "ordinsched": "By appointment only.",
+        "sessched": "By appointment only.",
+        "tempclosesched": ["Saturday, 2 April 2022","Monday, 9 May 2022 - Monday, 23 May 2022","Saturday, 1 October 2022","Monday, 7 November 2022 - Tuesday, 22 November 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+        "summary": "Standing out from all over Utah Valley and located just west of the majestic Mount Timpanogos, the Mount Timpanogos temple was dedicated in 1996. It was the 49th temple dedicated in the world and the 9th temple in Utah."
+      }
+    ]
+}

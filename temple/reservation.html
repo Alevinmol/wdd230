@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn & Suites || Reservation</title>
+    <meta
+      name="description"
+      content="A page to make a reservation"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-left">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="top-middle">
+        <img
+          src="images/templesLogo.png"
+          alt="Temple Inn & Suites logo"
+          class="logo logo-mobile"
+        />
+        <nav>
+          <ul class="navigation hidden-left">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="temple.html"> TEMPLES </a></li>
+            <li class="logo-center">
+              <a href="index.html"
+                ><img
+                  src="images/templesLogo.png"
+                  alt="Temple Inn & Suites logo"
+                  class="logo"
+              /></a>
+            </li>
+            <li class="active"><a href="reservation.html"> RESERVATION </a></li>
+            <li><a href="services.html"> SERVICES </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="top-right">
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span
+          ><span id="xbutton" class="hidden toggle-btn"> &#10006; </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <h1>Make a Reservation</h1>
+      <div class="join-main">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Registrant</legend>
+            <label class="top"
+              >First Name*<input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name*<input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Email*<input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Phone*<input type="tel" name="phone" required
+            /></label>
+            <label class="top"
+              >State<select class="state" name="state">
+                <option value="N/A">---Find your state---</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select></label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Trip Info</legend>
+            <label class="top"
+              >Inn Location<select class="inn" name="inn" required>
+                <option value="">---Pick a location---</option>
+                <option value="American Fork">American Fork</option>
+                <option value="Gilbert">Gilbert</option>
+                <option value="Jordan River">Jordan River</option>
+                <option value="Payson">Payson</option>
+              </select></label
+            >
+            <label class="top"
+              >Date<input type="date" name="date" title="Trip Date" required
+            /></label>
+            <label class="top"
+              >Number of Rooms<input
+                type="number"
+                name="room"
+                title="Room Amount"
+                required
+            /></label>
+            <label class="top"
+              >Type of Rooms<input
+                type="text"
+                name="suites"
+                title="Room Type"
+                required
+            /></label>
+            <label class="top"
+              >Additional Comments/Questions <br /><textarea
+                rows="3"
+                name="comments"
+              ></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" class="submitBtn" value="Make Reservation" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="contact">
+        <p class="contact-info">contact@templeinnsuite.com</p>
+        <p class="contact-info">240.554.3321</p>
+        <p class="contact-info location">
+          <a
+            href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+            target="blank"
+          >
+            🗺️ Locate us here.</a
+          >
+        </p>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span id="currentyear"></span> Temple Inn & Suites.
+        </p>
+        <p>All rights reserved.</p>
+        <span id="lastupdated"></span>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+  </body>
+</html>
