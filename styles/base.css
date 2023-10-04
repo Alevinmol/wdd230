@@ -30,6 +30,23 @@ footer {
 h3, ul, p {
     font-family: 'KoHo', sans-serif;
 }
-.my_photo{
+#my_photo {
     grid-column: 1/1;
+}
+#nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Koho', sans-serif;
+    background-color: black;
+}
+#links{
+    display: block;
+    text-align: center;
+    width: auto;
+}
+#nav_list:hover{
+    background-color:black;
+    color: white;
 }
