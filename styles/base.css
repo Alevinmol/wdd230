@@ -1,6 +1,7 @@
 body{
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'KoHo', sans-serif;
 }
 header,
 footer {
@@ -27,26 +28,29 @@ footer {
     text-align: center;
     padding: 1.1;
 }
-h3, ul, p {
+/*h3, ul, p {
     font-family: 'KoHo', sans-serif;
-}
+}*/
 #my_photo {
     grid-column: 1/1;
 }
 #nav_list {
+    display: grid;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Koho', sans-serif;
     background-color: black;
 }
 #links{
-    display: block;
     text-align: center;
     width: auto;
 }
-#nav_list:hover{
-    background-color:black;
-    color: white;
+#nav_list li a {
+    padding: 10px;
+    text-align: center;
+    color: #faebd7;
+    text-decoration: none;
+}
+#nav_list li:hover{
+    background-color:white;
+    color: red;
 }
