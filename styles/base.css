@@ -51,6 +51,5 @@ footer {
     text-decoration: none;
 }
 #nav_list li:hover{
-    background-color:white;
-    color: red;
+    background-color:red;
 }
