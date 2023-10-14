@@ -28,28 +28,57 @@ footer {
     text-align: center;
     padding: 1.1;
 }
-/*h3, ul, p {
-    font-family: 'KoHo', sans-serif;
-}*/
-#my_photo {
+#ham_menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#my_photo{
     grid-column: 1/1;
 }
-#nav_list {
-    display: grid;
-    list-style-type: none;
-    margin: 0;
-    background-color: black;
+
+#ham_menu::before {
+	content: "☰";
 }
-#links{
-    text-align: center;
-    width: auto;
+
+#ham_menu.open::before {
+	content: "✖️";
 }
-#nav_list li a {
-    padding: 10px;
-    text-align: center;
-    color: #faebd7;
-    text-decoration: none;
+.nav_list {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
 }
-#nav_list li:hover{
-    background-color:red;
+.nav_list li {
+	display: none;
+}
+.nav_list li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.nav_list li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "🕶️";
 }

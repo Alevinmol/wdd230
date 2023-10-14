@@ -21,6 +21,7 @@
     <title>Alejandro Vinay-WDD 230-Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,8 +37,9 @@
         <h1 id="my_name">Alejandro Vinay</h1>
       </div>
       <nav>
-        <ul id="nav_list">
-          <li><a href="#" class="links">Home</a></li>
+        <button id="ham_menu"></button>
+        <ul class="nav_list">
+          <li><a href="index.html" class="links" class="active">Home</a></li>
           <li><a href="chamber/siteplan.html" class="links">Site Plan</a></li>
           <li><a href="chamber/" class="links">Chamber</a></li>
           <li>
@@ -103,6 +105,6 @@
       <p id="currentdate"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/ham_menu.js"></script>
   </body>
 </html>
-<!-- This is an HTML comment -->
