@@ -78,7 +78,3 @@ footer {
 .open li a {
 	display: block;
 }
-
-.active::before {
-	content: "🕶️";
-}

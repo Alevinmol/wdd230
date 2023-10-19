@@ -1,0 +1,10 @@
+const lastmod = document.querySelector('#date');
+lastmod.textContent = `Last updated: ${document.lastModified}`;
+
+const hamButton = document.querySelector('#ham_menu');
+const navigation = document.querySelector('.nav_list');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
