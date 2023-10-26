@@ -1,19 +1,13 @@
 @media (min-width: 37.5em) {
-	h1 {
-		font-size: 2.5rem;
-		margin-left: 0;
-		text-align: center;
-	}
-	
-	h2 {
-		font-size: 2rem;
-		text-align: center;
-	}
-
-	#ham_menu {
+	header {
+        grid: 1fr 1fr / 1fr 3fr;
+    }
+    #ham_menu {
 		display: none; 
 	}
-
+    nav{
+        grid-column: 1/3;
+    }
 	.nav_list {
 		flex-direction: row;
 	}
