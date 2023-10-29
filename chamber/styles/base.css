@@ -3,8 +3,8 @@ body {
   font-size: 18px;
 }
 header {
-  display: grid;
-  grid: 1fr / 1fr 2fr 2fr;
+  /*display: grid;
+  grid: 1fr / 1fr 2fr 2fr;*/
   background-color: #355B8C;
   color: #F26F63;
   text-align: center;

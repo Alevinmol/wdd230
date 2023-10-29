@@ -1,6 +1,6 @@
 @media (min-width: 37.5em) {
 	header {
-        grid: 1fr 1fr / 1fr 3fr;
+       /* grid: 1fr 1fr / 1fr 3fr;*/
     }
     #ham_menu {
 		display: none; 
