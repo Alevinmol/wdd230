@@ -41,9 +41,20 @@
         </nav>
     </header>
     <main>
-        <img src="images/" alt="hero image">
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-low.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-med.webp">
+                <img src="images/hero-high.webp" alt="temple image" width="1500" height="750">
+            </picture>
+        </div>
         <p>currrent events</p>
-        <p>Weather card</p>
+        <section class="weather">
+            <h3>WEATHER</h3>
+            <h4><span id="current-temp">30</span> &#176;F</h4>
+            <p>Wind Speed: <span id="speed">6</span> mph</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+          </section>
         <p>company spotlights</p>
     </main>
     <footer>
@@ -54,5 +65,6 @@
         <p id="date"></p>
     </footer>  
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
