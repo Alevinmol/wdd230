@@ -1,5 +1,5 @@
-const t = parseFloat(document.getElementById('current-temp'))
-const windsp = parseFloat(document.getElementById('speed'))
+const t = parseFloat(document.getElementById('current-temp').textContent)
+const windsp = parseFloat(document.getElementById('speed').textContent)
 
 
 if(t <= 50 && windsp > 3) {
