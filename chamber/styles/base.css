@@ -64,3 +64,29 @@ footer{
   width: 100%;
   height: auto;
 }
+
+.event {
+  padding: 0 2em;
+  background-color: #355B8C;
+  color:white
+}
+
+#discoverImages img{
+  width: 100%;
+  background: #000;
+  animation: fade 5s;
+}
+
+@keyframes fade {
+  0%{
+      opacity: 0;
+  }
+  
+  100%{
+      opacity: 1;
+  }
+}
+
+footer {
+  padding: .25em;
+}

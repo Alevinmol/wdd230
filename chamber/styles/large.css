@@ -16,4 +16,8 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+	#discoverMain{
+		margin: .5em auto;
+		max-width: 1000px;
+	}
 }

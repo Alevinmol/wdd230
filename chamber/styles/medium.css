@@ -1,0 +1,15 @@
+@media (min-width: 20em) {
+    #discoverMain{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+      }
+      
+      #sidebar{
+        grid-column: 1/2;
+      }
+      
+      #discoverImages {
+        grid-column: 2/3;
+      }
+}

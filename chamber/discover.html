@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta
+      name="description"
+      content="Web page for the Teapa Chamber of Commerce"
+    />
+    <meta property="og:title" content="Teapa's chamber of commerce web site" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://alevinmol.github.io/wdd230/images/letras-teapa.png"
+    />
+    <meta
+      property="og:url"
+      content="https://alevinmol.github.io/wdd230/chamber/index.html"
+    />
+    <title>Teapa chamber of commerce site</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=KoHo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/logo-teapa.png"
+        width="200"
+        height="125"
+        alt="Teapa logo"
+      />
+      <h1>Teapa <br />Chamber of Commerce</h1>
+      <nav>
+        <button id="ham_menu"></button>
+        <ul class="nav_list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="discoverMain">
+      <section id="sidebar">
+        <section class="event">
+            <h3>EVENTS</h3>
+            <h4>Cocona caverns</h4>
+            <p>
+              Join us for a fun day trip to the Cocona caverns exclusively for our
+              chamber members. Enjoy a full day exploring this magical nature
+              wonder! Cocona caverns,Teapa, Thursday at 10 a.m.
+              <a href="#"> more info... </a>
+            </p>
+          </section>
+          <section class="event">
+            <h3>Statistics</h3>
+            <h4>Teapa's population</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, animi
+              nobis? Consectetur id numquam nam a necessitatibus eligendi expedita,
+              culpa dolorum voluptatibus tempora illo quae modi magnam dolores?
+              Incidunt itaque aperiam ab? Maxime praesentium autem voluptates
+              blanditiis natus harum inventore perferendis illo excepturi amet
+              consequatur ut adipisci deserunt, quaerat repellat?
+            </p>
+          </section>
+          <section class="event">
+            <h3>Calendar of events</h3>
+            <h4>local activities</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+              optio, adipisci officia pariatur accusantium expedita quis ipsa et
+              doloremque nisi velit minus voluptatum neque recusandae
+              necessitatibus, cupiditate totam repellat dolorum! Ad explicabo
+              reiciendis laudantium. Alias facere consequuntur dolores vel illo
+              eaque harum tenetur temporibus, in unde modi fugit. Asperiores,
+              dignissimos.
+            </p>
+          </section>
+          <section class="event">
+            <h3>Map</h3>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+              optio, adipisci officia pariatur accusantium expedita quis ipsa et
+              doloremque nisi velit minus voluptatum neque recusandae
+              necessitatibus, cupiditate totam repellat dolorum! Ad explicabo
+              reiciendis laudantium. Alias facere consequuntur dolores vel illo
+              eaque harum tenetur temporibus, in unde modi fugit. Asperiores,
+              dignissimos.
+            </p>
+          </section><section class="event">
+            <h3>Lorem ipsum</h3>
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+              optio, adipisci officia pariatur accusantium expedita quis ipsa et
+              doloremque nisi velit minus voluptatum neque recusandae
+              necessitatibus, cupiditate totam repellat dolorum! Ad explicabo
+              reiciendis laudantium. Alias facere consequuntur dolores vel illo
+              eaque harum tenetur temporibus, in unde modi fugit. Asperiores,
+              dignissimos.
+            </p>
+          </section>
+      </section>
+      <section id="discoverImages">
+        <picture>
+            <img src="images/pan.jpg" alt="Panaderia" width="400" height="600" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/platanerasC.jpg" alt="Plataneras" width="400" height="600" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/pollo.jpg" alt="Polleria" width="400" height="600" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/prendamex-logo.png" alt="Store" width="400" height="600" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/tacos.png" alt="Taqueria" width="400" height="600" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/tortas.png" alt="Tortas" width="400" height="600" loading="lazy">
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <h3>Teapa Chamber of Commerce</h3>
+      <p>Manuel Buelta 117 col centro, Teapa, Tabasco, Mexico</p>
+      <p>teapachamber@gmail.com</p>
+      <p>(932) 327-0928</p>
+      <p id="date"></p>
+      <p id="sameday">
+        You visited this page <span id="lastvisit"></span> days ago.
+      </p>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/last-visited.js"></script>
+  </body>
+</html>
