@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/large.css" />
+    <link rel="stylesheet" href="styles/form.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,66 +60,65 @@
       </nav>
     </header>
     <main>
-      <section class="card">
-        <h3 id="home_header_1">WDD 230: Assignment Portal</h3>
-        <div id="link_list">
-          <nav>
-            <ul>
-              <li>
-                Lesson 01:<a href="lesson01/holygrail.html">Holy grail</a>
-              </li>
-              <li>
-                Lesson 02:<a href="lesson02/design.html">Design Principles</a> |
-                <a href="lesson02/media-query.html">Media Query Example</a>
-              </li>
-              <li>
-                Lesson 03:<a href="images/screenshot.png">W3 exercise</a>
-                |
-                <a href="https://codepen.io/Alevinmol/pen/PoXXVzR">
-                  CSS Pseudo elements</a
-                >
-                |
-                <a href="https://codepen.io/Alevinmol/pen/VwqgWJN"
-                  >Hamburger menu</a
-                >
-              </li>
-              <li>
-                Lesson 04:<a href="https://codepen.io/Alevinmol/pen/ExGzLVW"
-                  >Pseudo classes</a
-                >
-              </li>
-              <li>
-                Lesson 05:<a href="https://codepen.io/Alevinmol/pen/JjxdGJq"
-                  >BOM chapters</a
-                >
-              </li>
-              <li>Lesson 06:<a href="images/landscape.webp">Landscape</a></li>
-              <li>
-                Lesson 07:<a href="lesson07/lazyload.html">Lazy load</a> |<a
-                  href="lesson07/bom.html"
-                >
-                  Favorite chapters</a
-                >
-              </li>
-              <li>
-                Lesson 08:<a href="lesson08/tablebuild.html">Table build</a> |
-                <a href="lesson08/form-start/form-start/index.html"
-                  >Form practice</a
-                >
-              </li>
-              |
-              <a href="form.html"> Form</a>
-              <li>Lesson 09:<a href="">title</a></li>
-              <li>Lesson 10:<a href="">title</a></li>
-              <li>Lesson 11:<a href="">title</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <section>
-        <h3>Information</h3>
-        <p>Weather</p>
-      </section>
+      <form action="record.html" method="get">
+        <fieldset>
+          <div id="formmessage"></div>
+          <legend>Simple form</legend>
+          <label
+            >Username<input type="text" id="username" name="username" required
+          /></label>
+          <label
+            >Password<input
+              type="password"
+              id="pwd"
+              name="pwd"
+              pattern="[A-Za-z0-9]{8,}"
+              required
+          /></label>
+          <label
+            >Confirm password<input
+              type="password"
+              id="confpwd"
+              name="confpwd"
+              required
+          /></label>
+          <label
+            >Email<input
+              type="email"
+              id="email"
+              name="email"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email"
+              required
+          /></label>
+          <label for="r">Page rating</label>
+          <div id="rangevalue">0</div>
+          <input
+            type="range"
+            id="r"
+            name="r"
+            min="0"
+            max="10"
+            value="0"
+            step="1"
+            list="rangevalues"
+          />
+          <datalist id="rangevalues">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </fieldset>
+        <input type="submit" value="sign in" class="submitBtn">
+      </form>
     </main>
     <footer>
       <p>&copy; 2023 .:|:. J. Alejandro Vinay .:|:. Mexico</p>
@@ -131,5 +131,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/ham-menu.js"></script>
     <script src="scripts/num-visits.js"></script>
+    <script src="scripts/form.js"></script>
   </body>
 </html>
