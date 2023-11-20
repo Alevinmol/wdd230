@@ -40,14 +40,64 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="joinmain">
       <form action="thankyou.html" method="get">
         <fieldset>
           <legend>Member sign in</legend>
-          <label>First name<input type="text" id="fname" name="fname" required></label>
+          <label class="top">First name*<input type="text" id="fname" name="fname" required></label>
+          <label class="top">Last name*<input type="text" id="lname" name="lname" required></label>
+          <label class="top">Title* Enter text (alpha, hyphen, space, min 7 characters):<input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least seven characters consisting of alpha characters, hyphens, and spaces." required></label>
+          <label class="top">Email*<input type="email" id="email" name="email"placeholder="someone@gmail.com" required></label>
+          <label class="top">Phone number*<input type="tel" id="tel" name="tel" required></label>
+          <label class="top">Organization's name*<input type="text" id="bname" name="bname" required></label>
+          <label class="top">Membership level
+            <select name="level">
+              <option value="">Please Select</option>
+              <option value="np">Non profit</option>
+              <option value="bronze">Bronze</option>
+              <option value="silver">Silver</option>
+              <option value="gold">Gold</option>
+            </select>
+          </label>
+          <label class="top">Organization's description<input type="text" name="description" id="description"></label>
+          <input type="hidden" name="hiddenDateTime" id="hiddenDateTime">
         </fieldset>
-        <input type="submit" value="sign in" class="submitBtn">
+        <input type="submit" value="Sign in" class="submitBtn">
       </form>
+      <div id="benefits">
+        <h2>Benefits</h2>
+        <ul>
+          <li>Non-Profit Membership
+            <ul>
+              <li>Recognition as a supporting member on the organization.</li>
+              <li>Regular updates on the organization's activities and achivements.</li>
+              <li>Invitation to participate in community events and activities.</li>
+            </ul>
+          </li>
+          <li>Bronze Membership
+            <ul>
+              <li>All benefits of the Non-Profit Membership.</li>
+              <li>Exclusive access to member-only events and webinars.</li>
+              <li>Bronze member badge.</li>
+            </ul>
+          </li>
+          <li>Silver Membership
+            <ul>
+              <li>All benefits of the Bronze Membership.</li>
+              <li>Priority access to workshops, seminars,and training sessions.</li>
+              <li>Quarterly personalized updates on the impact of contributions.</li>
+            </ul>
+          </li>
+          <li>Gold Membership
+            <ul>
+              <li>All benefits of the Silver Membership.</li>
+              <li>Featured recognition on the organization's website and promotional materials.</li>
+              <li>VIP access to special events and meetings with organizational leaders.</li>
+              <li>Annual report on how Gold-level contributions directly support the organization's mission.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </main>
     <footer>
         <h3>Teapa Chamber of Commerce</h3>
@@ -59,5 +109,6 @@
     </footer>  
     <script src="scripts/script.js"></script>
     <script src="scripts/num-visits.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>

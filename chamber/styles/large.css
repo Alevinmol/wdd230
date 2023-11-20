@@ -20,4 +20,9 @@
 		margin: .5em auto;
 		max-width: 1000px;
 	}
+	#joinmain {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 5rem;
+	  }
 }
