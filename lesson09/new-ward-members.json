@@ -1,0 +1,22 @@
+{
+    "familyName" : "Vinay",
+    "dateMovedIn" : 11232023,
+    "visitedByBishopric" : true,
+    "familyMembers" : [
+        {
+            "name" : "Salvador",
+            "birthdate" : 1995,
+            "gender" : "male"
+        },
+        {
+            "name" : "Dora",
+            "birthdate" : 1995,
+            "gender" : "female"
+        },
+        {
+            "name" : "Jesus",
+            "birthdate" : 1992,
+            "gender" : "male"
+        }
+    ]
+}

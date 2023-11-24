@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    background-color: #a1a2a6;
+}
+
+section {
+    border: solid whitesmoke;
+}
+
+footer{ 
+    background-color: #2b3a67;
+    margin: 1.25rem auto;
+    max-width: 760px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1.1;
+}
