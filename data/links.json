@@ -1,0 +1,27 @@
+{
+    "weeks":[
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"lesson01/holygrail.html",
+                    "title": "Holy grail"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"lesson02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url":"lesson02/media-query.html",
+                    "title":"Media Query Example"
+                }
+            ]
+        },
+        {}
+    ]
+}
