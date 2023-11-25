@@ -5,7 +5,7 @@ async function getMemberData() {
     const data = await response.json();
     // console.table(data.prophets); // temporary testing of data retreival
     displayMembers(data.members);
-  }
+}
   
   getMemberData();
 
@@ -43,4 +43,23 @@ const displayMembers = (members) => {
   
       cards.appendChild(card);
     }); // end of arrow function and forEach loop
+}
+
+const gridbutton = document.querySelector("#directoryGrid");
+const listbutton = document.querySelector("#directoryList");
+const display = document.querySelector("article");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
 }
