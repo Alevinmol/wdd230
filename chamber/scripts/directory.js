@@ -1,4 +1,4 @@
-const url = "alevinmol.github.io/wdd230/chamber/data/members.json";
+const url = 'https://alevinmol.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 async function getMemberData() {
     const response = await fetch(url);
@@ -26,8 +26,8 @@ const displayMembers = (members) => {
       image.setAttribute('src', member.imageurl);
       image.setAttribute('alt', `Image of ${member.name}`); // fill in the blank
       image.setAttribute('loading', 'lazy');
-      image.setAttribute('width', '440');
-      image.setAttribute('height', '340');
+      image.setAttribute('width', '300');
+      image.setAttribute('height', '300');
       address.textContent = `Address: ${member.address}`;
       website.textContent = `Website: ${member.website}`;
       phoneNumber.textContent = `Phone number: ${member.phone}`;

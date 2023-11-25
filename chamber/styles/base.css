@@ -187,3 +187,19 @@ form label.top input:required:valid {
   font-style: italic;
   color: #666;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#dbody{
+  margin: auto;
+    text-align: center;
+    font-family: 'KoHo', Arial, sans-serif;
+    background-color: #a1a2a6;
+}
+
+#dbody section {
+  border: solid whitesmoke;
+}
