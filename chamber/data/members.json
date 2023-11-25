@@ -1,0 +1,100 @@
+{
+    "members": [
+      {
+        "name": "Elektra",
+        "address": "Damian piza beltran, \nTeapa, Tab 86800",
+        "phone": "(932) 123-4567",
+        "website": "https://elektra.com/",
+        "imageurl": "images/elektra.png",
+        "membship": "Bronze"
+      },
+      {
+        "name": "Carnitas",
+        "address": "lino merhino 218 \nTeapa, Tab 86800",
+        "phone": "(932) 123-4568",
+        "website": "https://carnitas.com/",
+        "imageurl": "images/carnitas.png",
+        "membship": "Gold"
+      },
+      {
+        "name": "Tecnologico de la Sierra",
+        "address": "Manuel Buelta 208, \nTeapa, Tab 86800",
+        "phone": "(801) 123-4569",
+        "website": "https://itss.edu/",
+        "imageurl": "images/itss.png",
+        "membship": "Non-profit"
+      },
+      {
+        "name": "Farmacia de Ahorro",
+        "address": "Av. INdependencia, \nTeapa, Tab, 86800",
+        "phone": "(932) 123-4598",
+        "website": "https://farmaciaahorro.com/",
+        "imageurl": "images/f-ahorro.png",
+        "membship": "Non-profit"
+      },
+      {
+        "name": "Famsa",
+        "address": "Lino Merhino 123, \nTeapa, Tab 86800",
+        "phone": "(932) 567-1234",
+        "website": "https://famsa.com/",
+        "imageurl": "images/logo-famsa.png",
+        "membship": "Bronze"
+      },
+      {
+        "name": "Milano",
+        "address": "Gregorio Mendez 169, \nTeapa Tab 86800",
+        "phone": "(932) 987-0987",
+        "website": "https://milano.com/",
+        "imageurl": "images/milano.png",
+        "membship": "Silver"
+      },
+      {
+        "name": "Abarrotes Monterrey",
+        "address": "Julian Dueñas 469, \nTeapa, Tab 86800",
+        "phone": "(932) 243-2335",
+        "website": "https://abarrotesmonterrey.com/",
+        "imageurl": "images/monterrey.jpg",
+        "membship": "Bronze"
+      },
+      {
+        "name": "Panaderia",
+        "address": "Av. Independencia, \nTeapa Tab 86800",
+        "phone": "(932) 235-0798",
+        "website": "https://panaderia.com/",
+        "imageurl":"images/pan.jpg",
+        "membship": "Silver"
+      },
+      {
+        "name": "Pollos Asados",
+        "address": "Julian Dueñas 512, \nTeapa Tab 86800",
+        "phone": "(932) 224-2435",
+        "website": "https://pollosasados.com/",
+        "imageurl": "images/pollo.jpg",
+        "membship": "Gold"
+      },
+      {
+        "name": "Prendamex",
+        "address": "Manuel Buelta 114, \nTeapa Tab 86800",
+        "phone": "(932) 225-4107",
+        "website": "https://prendamex.com/",
+        "imageurl": "images/prendamex-logo.png",
+        "membship": "Gold"
+      },
+      {
+        "name": "Taquero Mucho",
+        "address": "Manuel Buelta 98, \nTeapa, Tab 86800",
+        "phone": "(932) 863-8424",
+        "website": "https://tacos.com/",
+        "imageurl": "images/tacos.png",
+        "membship": "Silver"
+      },
+      {
+        "name": "Tortas el Yorch",
+        "address": "Av. Independencia 191, \nTeapa, Tab 86800",
+        "phone": "(932) 123-5813",
+        "website": "https://tortasyorch.com/",
+        "imageurl": "images/tortas.png",
+        "membship": "Bronze"
+      }
+    ]
+}

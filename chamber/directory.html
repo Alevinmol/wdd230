@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta
+      name="description"
+      content="Web page for the Teapa Chamber of Commerce"
+    />
+    <meta property="og:title" content="Teapa's chamber of commerce web site" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://alevinmol.github.io/wdd230/images/letras-teapa.png"
+    />
+    <meta
+      property="og:url"
+      content="https://alevinmol.github.io/wdd230/chamber/index.html"
+    />
+    <title>Teapa chamber of commerce site</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=KoHo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/logo-teapa.png"
+        width="200"
+        height="125"
+        alt="Teapa logo"
+      />
+      <h1>Teapa <br />Chamber of Commerce</h1>
+      <nav>
+        <button id="ham_menu"></button>
+        <ul class="nav_list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="directorymain">
+        <div id="cards"></div>
+    </main>
+    <footer>
+      <h3>Teapa Chamber of Commerce</h3>
+      <p>Manuel Buelta 117 col centro, Teapa, Tabasco, Mexico</p>
+      <p>teapachamber@gmail.com</p>
+      <p>(932) 327-0928</p>
+      <p id="date"></p>
+      <p id="sameday">
+        You visited this page <span id="lastvisit"></span> days ago.
+      </p>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/last-visited.js"></script>
+    <script src="scripts/directory.js"></script>
+  </body>
+</html>
