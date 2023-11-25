@@ -1,4 +1,4 @@
-const url = 'alevinmol.github.io/wdd230/chamber/data/members.json';
+const url = "alevinmol.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector('#cards');
 async function getMemberData() {
     const response = await fetch(url);
