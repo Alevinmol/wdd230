@@ -1,0 +1,55 @@
+body, h1, p, figure, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+#weather-icon {
+    width: 50px; 
+    height: 50px; 
+}
+
+#weather-icon {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#weather-icon {
+    margin: 10px;
+}
