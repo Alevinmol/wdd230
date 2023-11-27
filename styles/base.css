@@ -78,3 +78,10 @@ footer {
 .open li a {
 	display: block;
 }
+
+#weather {
+	background-color: #464E3C;
+	color: antiquewhite;
+	text-align: center;
+	padding: 0.1em;
+}
