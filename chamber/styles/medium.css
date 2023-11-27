@@ -12,4 +12,8 @@
       #discoverImages {
         grid-column: 2/3;
       }
+    
+    #forecast-container{
+      flex-wrap: wrap;
+    }
 }

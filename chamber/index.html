@@ -1,75 +1,143 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Alejandro Vinay">
-    <meta name="description" content="Web page for the Teapa Chamber of Commerce">
-    <meta property="og:title" content="Teapa's chamber of commerce web site" >
-    <meta property="og:type" content="website" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta
+      name="description"
+      content="Web page for the Teapa Chamber of Commerce"
+    />
+    <meta property="og:title" content="Teapa's chamber of commerce web site" />
+    <meta property="og:type" content="website" />
     <meta
       property="og:image"
       content="https://alevinmol.github.io/wdd230/images/letras-teapa.png"
-    >
+    />
     <meta
       property="og:url"
       content="https://alevinmol.github.io/wdd230/chamber/index.html"
-    >
+    />
     <title>Teapa chamber of commerce site</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="/favicon.ico">
-</head>
-<body>
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
     <header>
-        <img src="images/logo-teapa.png" width= "200" height="125" alt="Teapa logo">
-        <h1>Teapa <br>Chamber of Commerce</h1>
-        <nav>
-            <button id="ham_menu"></button>
-            <ul class="nav_list">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-            </ul>
-        </nav>
+      <img
+        src="images/logo-teapa.png"
+        width="200"
+        height="125"
+        alt="Teapa logo"
+      />
+      <h1>Teapa <br />Chamber of Commerce</h1>
+      <nav>
+        <button id="ham_menu"></button>
+        <ul class="nav_list">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="hero">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/letras-low.webp">
-                <source media="(max-width: 1000px)" srcset="images/letras-low.webp">
-                <img src="images/letras-high.webp" alt="hero image" width="1500" height="750">
-            </picture>
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/letras-low.webp" />
+          <source media="(max-width: 1000px)" srcset="images/letras-low.webp" />
+          <img
+            src="images/letras-high.webp"
+            alt="hero image"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
+      <div class="herolabel">
+        <a href="join.html">JOIN</a>
+      </div>
+      <section>
+        <h2>Current Events</h2>
+        <div class="event">
+          <h3>Visit the Cocona caverns</h3>
+          <p>Date: November 15, 2023</p>
+          <p>
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Sed et justo et urna consequat sagittis.
+          </p>
         </div>
-        <div class="herolabel">
-            <a href="join.html">JOIN</a>
+
+        <div class="event">
+          <h3>Anual city fair</h3>
+          <p>Date: December 5, 2023</p>
+          <p>
+            Description: Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
         </div>
-        <p>currrent events</p>
-        <section class="weather">
-            <h3>WEATHER</h3>
-            <h4><span id="current-temp">30</span> &#176;F</h4>
-            <p>Wind Speed: <span id="speed">6</span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-          </section>
-        <p>company spotlights</p>
+      </section>
+      <section class="weather">
+        <h3>WEATHER</h3>
+        <p>
+          The current temperature in Teapa, Mexico is:
+          <span id="current-temp"></span>
+        </p>
+        <figure>
+          <img id="weather-icon" src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+        <p>Wind Speed: <span id="speed"></span> mph</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+      </section>
+      <h3>Weather Forecast</h3>
+      <section id="forecast-container"></section>
+      <section>
+        <h2>Company spotlights</h2>
+        <div class="event">
+          <h3>Tortas el Yorch</h3>
+          <p>Best tortas de cochinita in the state</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Sed et justo et urna consequat sagittis.
+          </p>
+        </div>
+
+        <div class="event">
+          <h3>Brownies sponch</h3>
+          <p>Try the town's newest sensation</p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
     </main>
+    <div id="event-banner">
+        <span id="close-banner" onclick="closeBanner()">❌</span>
+        <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+    </div>
     <footer>
-        <h3>Teapa Chamber of Commerce</h3>
-        <p>Manuel Buelta 117 col centro, Teapa, Tabasco, Mexico</p>
-        <p>teapachamber@gmail.com</p>
-        <p>(932) 327-0928</p>
-        <p id="date"></p>
-        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-    </footer>  
+      <h3>Teapa Chamber of Commerce</h3>
+      <p>Manuel Buelta 117 col centro, Teapa, Tabasco, Mexico</p>
+      <p>teapachamber@gmail.com</p>
+      <p>(932) 327-0928</p>
+      <p id="date"></p>
+      <p>
+        <span class="label">Number of Visits: </span
+        ><span class="visits"></span>
+      </p>
+    </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/num-visits.js"></script>
-</body>
+    <script src="scripts/weather.js"></script>
+  </body>
 </html>

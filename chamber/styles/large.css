@@ -25,4 +25,9 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 5rem;
 	  }
+	
+	#forecast-container{
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
 }
