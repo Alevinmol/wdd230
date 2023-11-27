@@ -314,3 +314,14 @@ h3,h2{
   font-weight: bold;
   margin-right: 10px;
 }
+
+#spotlight {
+  background-color: #F26F63;
+  padding: 20px;
+  text-align: center;
+  color: #011640;
+}
+
+#spotlight ul li {
+  list-style-type: none;
+}
