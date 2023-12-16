@@ -1,0 +1,21 @@
+@media only screen and (min-width: 769px) {
+  #ham_menu {
+    display: none; 
+  }
+
+  .nav_list {
+    display: flex;
+  }
+  .nav_list {
+		flex-direction: row;
+	}
+
+	.nav_list li {
+		display: block;
+		flex: 1 1 100%;
+	}
+  .text-overlay a {
+    display: inline-block; 
+    font-size: 1.2em;
+  }
+}

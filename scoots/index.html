@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alejandro Vinay" />
+    <meta
+      name="description"
+      content="Website for scoots motor scooter rental company"
+    />
+    <meta
+      property="og:title"
+      content="Scoots' motor scooter rental company website"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://alevinmol.github.io/wdd230/scoots/images/scoots-large.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://alevinmol.github.io/wdd230/scoots/index.html"
+    />
+    <title>Scoots rental</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=KoHo&display=swap"
+    />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Scoots <br />Motor scooter rental company</h1>
+      <nav>
+        <button id="ham_menu"></button>
+        <ul class="nav_list">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Rentals</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="https://facebook.com" target="_blank"
+              ><img
+                src="images/Facebook_Logo.png"
+                alt="Facebook logo"
+                width="30"
+                height="30"
+                id="facebook"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/scoots-small.webp"
+          />
+          <source
+            media="(max-width: 1000px)"
+            srcset="images/scoots-medium.webp"
+          />
+          <img
+            src="images/scoots-large.webp"
+            alt="hero image"
+            width="1500"
+            height="750"
+          />
+        </picture>
+        <div class="text-overlay">
+          <a href="#">Rent a scooter</a>
+          <h2>SCOOTER RENTALS IN COZUMEL</h2>
+          <p>
+            Visit any of our two locations. One is near the Playa del
+            Carmen-Cozumel Ferry dock in Cozumel's downtown, and the other is
+            near the Terminal Puerta Maya further south along the coast.
+          </p>
+          <p>
+            Rent any of our amazing and fun motor scooters, jeeps, and
+            side-by-side ATVs.
+          </p>
+        </div>
+      </div>
+      <h3>Types of rentals</h3>
+      <div id="rentals">
+        <ul>
+          <li>
+            Honda Motor Scooters
+            <ul>
+              <li>Honda Metropilitan (49cc)-1 person</li>
+              <li>Honda Dio (110cc)-2 person</li>
+              <li>Honda PCX150 (149cc)- 2 person</li>
+            </ul>
+          </li>
+          <li>
+            Side by side ATVs
+            <ul>
+              <li>Honda pioneer 1000-4 person</li>
+            </ul>
+          </li>
+          <li>
+            Jeeps
+            <ul>
+              <li>Jeep Wrangler- 4 door manual with A/C-5 person</li>
+              <li>Jeep Wrangler-2 door-open air-manual-4 person</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <h3>Current Weather and Next Day Forecast</h3>
+      <div class="card" id="weather-info">
+        <p id="current-temperature">Temperature: Loading...</p>
+        <p id="current-humidity">Humidity: Loading...</p>
+      </div>
+
+      <h3>Tomorrow's Forecast at 3 PM</h3>
+      <div class="card" id="next-day-forecast">
+        <p id="next-day-temperature">Temperature: Loading...</p>
+        <p id="next-day-humidity">Humidity: Loading...</p>
+      </div>
+    </main>
+    <footer>
+      <p>Call us at 932-128-2886</p>
+      <p><br />rental@scoots.com</p>
+      <p><br />Copyright © Scoots LLC | All rights reserved</p>
+    </footer>
+    <script src="scripts/ham-menu.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>

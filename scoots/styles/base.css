@@ -1,0 +1,185 @@
+body {
+  font-family: "KoHo", sans-serif;
+}
+header {
+  background-color: #0b3142;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h1 span {
+  font-size: 0.7em;
+  display: block;
+}
+#ham_menu {
+  font-size: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 3px 7px 6px;
+  background-color: #eee;
+  color: #000;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#ham_menu::before {
+  content: "☰";
+}
+#ham_menu.open::before {
+  content: "✖️";
+}
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.nav_list li {
+  display: none;
+}
+.nav_list li a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.nav_list li a:hover {
+  background-color: #bbb;
+  color: #333;
+  font-weight: 700;
+}
+.open li {
+  display: block;
+  width: 100%;
+}
+.open li a {
+  display: block;
+}
+
+.active::before {
+  content: "🌎";
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.text-overlay a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 5px;
+}
+h2,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+#facebook {
+  width: 30px;
+  height: 30px;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#rentals ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#rentals ul > li {
+  background-color: #c6b9cd;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px;
+  padding: 15px;
+  width: 70%;
+  color: black;
+}
+
+#rentals ul ul {
+  margin-top: 10px;
+}
+
+#rentals li {
+  font-size: 1.2em;
+}
+
+#rentals ul ul li {
+  margin-left: 20px;
+  font-size: 1em;
+}
+
+.card {
+  background-color: #D6D3F0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
