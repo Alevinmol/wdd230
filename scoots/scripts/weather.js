@@ -1,3 +1,5 @@
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
 const latitude = 20.42;
 const longitude = -86.92;
 
@@ -60,3 +62,28 @@ fetch(forecastUrl)
     document.getElementById("next-day-humidity").textContent =
       "Failed to fetch humidity";
   });
+
+async function apiFetch() {
+  try {
+    const response = await fetch(currentWeatherUrl);
+    if (response.ok) {
+      const data = await response.json();
+      //console.log(data); // testing only
+      displayResults(data); // uncomment when ready
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+apiFetch();
+
+function displayResults(data) {
+  const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+  let desc = data.weather[0].description;
+  weatherIcon.setAttribute('src', iconsrc);
+  weatherIcon.setAttribute('alt', "weather icon");
+  captionDesc.textContent = `${desc}`;
+}
