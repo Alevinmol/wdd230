@@ -87,3 +87,4 @@ function displayResults(data) {
   weatherIcon.setAttribute('alt', "weather icon");
   captionDesc.textContent = `${desc}`;
 }
+// I got help from AI to create the forecast js //
