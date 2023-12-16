@@ -55,13 +55,78 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main id="reserv-main">
+      <h2>Rental Services and Agreements</h2>
+      <ul>
+        <li>A $50 security deposit is required to confirm reservations.</li>
+        <li>
+          A valid drivers license is required in hand at the time of rental.
+        </li>
+        <li>
+          No one under the age of 12 years of age are allowed to ride on the
+          scooters.
+        </li>
+        <li>Fuel charge is not included.</li>
+        <li>Unlimited mileage.</li>
+        <li>Liability insurance is included.</li>
+        <li>Damage insurance is available for purchase.</li>
+        <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+        <li>
+          Payment via Google pay, Apple Pay, cash, credit card, debit card, or
+          venmo.
+        </li>
+        <li>Rentals may be returned to either physical location.</li>
+      </ul>
+      <h2>Rental Reservation </h2>
+      <form action="thankyou.html" method="get">
+        <label for="date" class="required">Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="period" class="required">Rental Period:</label>
+        <select id="period" name="period" required>
+          <option value="">Please select</option>
+          <option value="half-day">Half Day</option>
+          <option value="full-day">Full Day</option>
+          <option value="multiple-days">Multiple Days</option>
+        </select>
+
+        <label for="rental-type" class="required">Rental Type:</label>
+        <input type="text" id="rental-type" name="rental-type" required />
+
+        <label for="number-of-people" class="required">Number of People:</label>
+        <input
+          type="number"
+          id="number-of-people"
+          name="number-of-people"
+          required
+        />
+
+        <label for="phone" class="required">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="name" class="required">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email" class="required">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="home-location" class="required">Home State or Country:</label>
+        <input type="text" id="home-location" name="home-location" required />
+
+        <label for="cruise-line">Cruise Line (if applicable):</label>
+        <input type="text" id="cruise-line" name="cruise-line" />
+
+        <label for="comments">Special Accommodations/Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit Reservation</button>
+      </form>
+    </main>
     <footer>
       <p>Call us at 932-128-2886</p>
       <p><br />rental@scoots.com</p>
       <p><br />Copyright © Scoots LLC | All rights reserved</p>
     </footer>
     <script src="scripts/ham-menu.js"></script>
-    <script src="scripts/weather.js"></script>
   </body>
 </html>
