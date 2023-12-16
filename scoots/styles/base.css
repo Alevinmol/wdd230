@@ -183,3 +183,8 @@ h3 {
   margin: 10px;
   text-align: center;
 }
+
+#weather-icon{
+    width: 30px;
+    height: 30px;
+}
